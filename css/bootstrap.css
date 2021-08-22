@@ -5,188 +5,20 @@
  */
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
-html {
-    font-family: sans-serif;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%
-}
-
-body {
-    margin: 0
-}
-
-article,
-aside,
-figcaption,
-figure,
-footer,
-header,
-main,
-menu,
-nav,
-section{
-    display: block
-}
-
-a {
-    background-color: transparent
-}
-
-a:active,
-a:hover {
-    outline: 0
-}
-
-svg:not(:root) {
-    overflow: hidden
-}
-
-figure {
-    margin: 1em 40px
-}
-
+/*
 button,
-input,
-select,
-textarea {
-    margin: 0;
-    font: inherit;
-    color: inherit
-}
-
-button {
-    overflow: visible
-}
-
-button,
-select {
-    text-transform: none
-}
-
-button,
-html input[type=button],
-input[type=reset],
 input[type=submit] {
     -webkit-appearance: button;
     cursor: pointer
 }
 
-button[disabled],
-html input[disabled] {
-    cursor: default
-}
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css*/
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    padding: 0;
-    border: 0
-}
-
-input {
-    line-height: normal
-}
-
-textarea {
-    overflow: auto
-}
-
-
-
-/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
-
-@media print {
-    *,
-    :after,
-    :before {
-        color: #000 !important;
-        text-shadow: none !important;
-        background: 0 0 !important;
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important
-    }
-    a,
-    a:visited {
-        text-decoration: underline
-    }
-    a[href]:after {
-        content: " (" attr(href) ")"
-    }
-    abbr[title]:after {
-        content: " (" attr(title) ")"
-    }
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: ""
-    }
-
-    img {
-        max-width: 100% !important
-    }
-    .navbar {
-        display: none
-    }
-
-    .label {
-        border: 1px solid #000
-    }
-    .table {
-        border-collapse: collapse !important
-    }
-    .table td,
-    .table th {
-        background-color: #fff !important
-    }
-    .table-bordered td,
-    .table-bordered th {
-        border: 1px solid #ddd !important
-    }
-}
-
+/*
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box
-}
-
-:after,
-:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-html {
-    font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
-}
-
-body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
-    color: #333;
-    background-color: #fff
-}
-
-button,
-input,
-select,
-textarea {
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit
-}
-
-a {
-    color: #337ab7;
-    text-decoration: none
-}
-
-a:focus,
-a:hover {
-    color: #23527c;
-    text-decoration: underline
 }
 
 a:focus {
@@ -195,30 +27,11 @@ a:focus {
     outline-offset: -2px
 }
 
-figure {
-    margin: 0
-}
-
-img {
-    vertical-align: middle
-}
-
 .img-responsive
  {
     display: block;
     max-width: 100%;
     height: auto
-}
-
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0
 }
 
 [role=button] {
@@ -343,11 +156,6 @@ textarea.form-control {
     border-radius: 4px
 }
 
-.btn.active.focus,
-.btn.active:focus,
-.btn.focus,
-.btn:active.focus,
-.btn:active:focus,
 .btn:focus {
     outline: thin dotted;
     outline: 5px auto -webkit-focus-ring-color;
@@ -421,9 +229,6 @@ textarea.form-control {
     .navbar {
         border-radius: 4px
     }
-}
-
-@media (min-width:768px) {
     .navbar-header {
         float: left
     }
@@ -448,7 +253,6 @@ textarea.form-control {
     }
 }
 
-
 .navbar-toggle {
     position: relative;
     float: right;
@@ -464,17 +268,6 @@ textarea.form-control {
 
 .navbar-toggle:focus {
     outline: 0
-}
-
-.navbar-toggle .icon-bar {
-    display: block;
-    width: 22px;
-    height: 2px;
-    border-radius: 1px
-}
-
-.navbar-toggle .icon-bar+.icon-bar {
-    margin-top: 4px
 }
 
 @media (min-width:768px) {
@@ -538,3 +331,4 @@ textarea.form-control {
     margin-right: auto;
     margin-left: auto;
 }
+*/

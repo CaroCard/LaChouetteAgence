@@ -45,12 +45,8 @@ nav li {
     color: #FFF; /* SI CONFLIT OK, DELETE */
 }
 
-/*scroll to top button page contact (invisible)*/
-.btn-d,
-.btn-d:hover,
-.btn-d:focus {
-    color: #FFF;
-    background: rgba(0, 0, 0, .3);
+.site-navigation > li a:hover {
+    background: none;
 }
 
 a,
@@ -122,7 +118,7 @@ a:hover {
     display: inline;
 }
 
-.nav {
+.site-navigation {
     padding-top: 6px;
     float: right;
     z-index: 1;
@@ -355,7 +351,7 @@ a[data-lightbox]:hover img {
 }
 
 @media (max-width: 991px) {
-    .page-container {
+    main {
         overflow-x: hidden;
         position: relative;
     }
@@ -372,20 +368,20 @@ a[data-lightbox]:hover img {
 }
 
 @media (max-width: 767px) {
-    .nav {
+    .site-navigation {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none;
     }
-    .nav > li {
+    .site-navigation > li {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: left;
-        padding-left: 15px;
         width: 100%;
+        padding-left: 15px;
     }
-    .nav > li:hover {
+    .site-navigation > li:hover {
         background: rgba(0, 0, 0, .08);
     }
     .navbar-collapse {

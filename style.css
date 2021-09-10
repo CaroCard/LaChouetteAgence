@@ -1,5 +1,5 @@
 body {
-    color: #575757;
+    color: #424242;
 }
 
             /* FONTS */
@@ -12,46 +12,56 @@ h2 {
     line-height: 1.4em;
 }
 
-h3, .btn__contact {
+h3, .btn__contact, button, a {
     font-size: 16px;
+    font-weight: bold!important;
     text-transform: uppercase;
-    font-weight: bold;
-}
-
-h3 {
-    color: #333333; /* A ENLEVER ?? */
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
-nav li {
-    font-size: 16px;
-}
 
 
             /* BUTTONS && LINKS */
 .btn__contact {
-    color: #FFF;
     padding: 12px 28px;
-    background: #F3976C;
     border-radius: 40px;
-    margin: 0 5px 5px 0;
 }
 
-.btn__contact:hover {
-    background: #c27956;
-    color: #FFF; /* SI CONFLIT OK, DELETE */
+nav a {
+    font-size: 16px;
+    color: #424242;
 }
 
-.site-navigation > li a:hover {
-    background: none;
+nav a:hover, nav a:active {
+    color: #F3976C;
+    font-size: 18px;
+}
+
+.btn--colors {
+    background: #F3976C;
+    color: #424242;
+}
+
+.btn--colors:hover, .btn--colors:active {
+    background: #FFB896;
+    color: #000;
+}
+
+.site-navigation > li a:hover, .site-navigation > li a:active {
+    background: #424242;
 }
 
 a,
-button {
-    transition: all .3s ease-in-out;
+button, .social__icons {
+    transition: all .2s ease-in-out;
+}
+
+#form_1 button {
+    border-radius: 0;
+    border: 2px outset #D0D9DB;;
 }
 
 a:hover {
@@ -99,6 +109,7 @@ a:hover {
     margin-top: 10px;
     margin-bottom: 40px;
 }
+
 
 
             /* HEADER */
@@ -154,6 +165,10 @@ a:hover {
     color: #364577;
     border-color: #364577;
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
+}
+
+.margin--top {
+    margin-top: 40px;
 }
 
 
@@ -275,7 +290,7 @@ a[data-lightbox]:hover img {
 }
 
 .background--contrast {
-    background-color: rgba(165, 147, 99, 0.7);
+    background: rgba(66, 66, 66, 0.8);
     padding: 40px;
 }
 
@@ -285,14 +300,6 @@ a[data-lightbox]:hover img {
 
 .color--orange {
     color: #F3976C;
-}
-
-.navbar a {
-    color: rgba(0, 0, 0, .6);
-}
-
-.navbar a:hover {
-    color: rgba(0, 0, 0, 1);
 }
 
 
@@ -328,11 +335,13 @@ a[data-lightbox]:hover img {
             /* FOOTER */
 .social__icons {
     font-size: 30px!important;
-    color: rgba(255, 255, 255, .6);
+    color: #424242;
+
 }
 
-.social__icons:hover {
-    color: rgba(255, 255, 255, 1);
+.social__icons:hover, .social__icons:active {
+    color: #000;
+    font-size: 35px!important;
 }
 
 .social {
@@ -381,7 +390,7 @@ a[data-lightbox]:hover img {
         width: 100%;
         padding-left: 15px;
     }
-    .site-navigation > li:hover {
+    .site-navigation > li:hover, .site-navigation > li:active {
         background: rgba(0, 0, 0, .08);
     }
     .navbar-collapse {
@@ -400,7 +409,7 @@ a[data-lightbox]:hover img {
     .bloc-lg {
         padding: 40px 0;
     }
-    form {
-        padding: 5px;
+    form, #contactInfo {
+        padding: 10px;
     }
 }

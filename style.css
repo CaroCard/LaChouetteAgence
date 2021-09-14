@@ -1,6 +1,9 @@
 body {
     color: #424242;
+    font-family: helvetica;
 }
+
+
 
             /* FONTS */
 h1 {
@@ -19,7 +22,7 @@ h3, .btn__contact, button, a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 
@@ -37,7 +40,6 @@ nav a {
 
 nav a:hover, nav a:active {
     color: #F3976C;
-    font-size: 18px;
 }
 
 .btn--colors {
@@ -341,7 +343,7 @@ a[data-lightbox]:hover img {
 
 .social__icons:hover, .social__icons:active {
     color: #000;
-    font-size: 35px!important;
+    background: #FFB896;
 }
 
 .social {

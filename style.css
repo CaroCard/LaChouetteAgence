@@ -125,12 +125,6 @@ a:hover {
     padding: 3px 15px;
 }
 
-.navbar-brand img {
-    max-width: 270px;
-    max-height: 45px;
-    display: inline;
-}
-
 .site-navigation {
     padding-top: 6px;
     float: right;
